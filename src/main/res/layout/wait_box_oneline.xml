@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/h40b"
+        android:layout_alignParentBottom="true" >
+
+        <TextView
+            android:id="@+id/mainMassage"
+            android:layout_width="@dimen/w50b"
+            android:layout_height="@dimen/h7b"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/circle_pleasewait_btn"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="123456789012345678"
+            android:textColor="#f0f0f0"
+            android:textSize="@dimen/w5b" />
+
+        <TextView
+            android:id="@+id/otherMassage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:singleLine="true"
+            android:textColor="#f0f0f0"
+            android:textSize="@dimen/w5b" />
+    </RelativeLayout>
+
+</RelativeLayout>
